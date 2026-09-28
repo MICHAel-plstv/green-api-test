@@ -16,6 +16,6 @@ npm run dev
 - Шаблонизатор **Vite**
 - **React 19 + TypeScript** (strict)
 - **Redux Toolkit**
-- **React Router**:
+- **React Router**
 - **react-hook-form + zod**
 - **СSS**

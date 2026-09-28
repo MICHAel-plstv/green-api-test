@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --color-white: #ffffff;
+  --color-error: #ea0038;
+
+  /* Brand green, light to dark */
+  --color-primary-light: #25d366;
+  --color-primary: #00a884;
+  --color-primary-dark: #008069;
+  --color-primary-darker: #017561;
+
+  /* Text */
+  --color-text: #111b21;
+  --color-text-heading: #41525d;
+  --color-text-secondary: #667781;
+
+  /* Backgrounds */
+  --color-bg: #f0f2f5;
+  --color-bg-hover: #f5f6f6;
+  --color-bg-chat: #efeae2;
+  --color-bg-warning: #fdf4c5;
+
+  /* Borders */
+  --color-border: #d1d7db;
+  --color-divider: #e9edef;
+
+  /* Messages */
+  --color-bubble-out: #d9fdd3;
+  --color-status-sent: #53bdeb;
+
+  /* Avatar */
+  --color-avatar-bg: #dfe5e7;
+
+  font-size: 16px;
+  font-family: 'Roboto', Arial, sans-serif;
+  color: var(--color-text);
+  background: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  height: 100vh;
+}
+
+button,
+input {
+  font: inherit;
+  color: inherit;
+}
+
+a {
+  color: var(--color-primary-dark);
+}

@@ -1,9 +1,9 @@
 import { createSlice, isAnyOf, type PayloadAction } from '@reduxjs/toolkit';
 
-import { storage } from '../storage';
-import { startAppListening } from './listener';
-import { STORAGE_KEY } from '../helpers/constants';
-import { type Credentials, credentialsSchema } from '../schemas';
+import { storage } from '@/helpers/storage';
+import { startAppListening } from '@/store/listener';
+import { STORAGE_KEY } from '@/helpers/constants';
+import { type Credentials, credentialsSchema } from '@/helpers/schema';
 
 interface AuthState {
   credentials: Credentials | null;

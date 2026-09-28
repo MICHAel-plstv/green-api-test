@@ -1,8 +1,7 @@
-import { ApiError } from '../../../store/api';
+import { ApiError } from '@/store/api';
 
 export const deriveApiUrl = (idInstance: string) =>
   `https://${idInstance.slice(0, 4)}.api.greenapi.com`;
-
 
 export const getLoginError = (error: unknown) => {
   if (error instanceof ApiError && error.status === 401) {
