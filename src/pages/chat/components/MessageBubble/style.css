@@ -1,0 +1,40 @@
+.message {
+  display: grid;
+  gap: 4px;
+  max-width: 65%;
+  padding: 6px 8px 8px 9px;
+  border-radius: 8px;
+}
+
+.message--incoming {
+  align-self: flex-start;
+  background: var(--color-white);
+}
+
+.message--outgoing {
+  align-self: flex-end;
+  background: var(--color-bubble-out);
+}
+
+.message__text {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.message__meta {
+  display: flex;
+  justify-content: flex-end;
+  gap: 4px;
+  margin-top: -2px;
+  font-size: 10px;
+  color: var(--color-text-secondary);
+}
+
+.message__status--sent {
+  color: var(--color-status-sent);
+}
+
+.message__status--failed {
+  font-weight: 700;
+  color: var(--color-error);
+}

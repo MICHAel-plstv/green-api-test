@@ -1,0 +1,17 @@
+.new-chat {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--color-divider);
+}
+
+.new-chat__field {
+  flex: 1;
+  min-width: 0;
+}
+
+.new-chat__field .field__input {
+  border: none;
+  background: var(--color-bg);
+}

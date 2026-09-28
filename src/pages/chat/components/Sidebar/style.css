@@ -1,0 +1,19 @@
+.sidebar {
+  flex: 0 0 30%;
+  min-width: 300px;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  background: var(--color-white);
+}
+
+.sidebar__banner {
+  padding: 12px 16px;
+  background: var(--color-bg-warning);
+  font-size: 14px;
+}
+
+.sidebar__list {
+  flex: 1;
+  overflow-y: auto;
+}

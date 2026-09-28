@@ -1,0 +1,19 @@
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 60px;
+  padding: 10px 16px;
+  background: var(--color-bg);
+}
+
+.sidebar-header__logout {
+  padding: 6px 10px;
+  border-radius: 6px;
+  background: none;
+  color: var(--color-text-secondary);
+}
+
+.sidebar-header__logout:hover {
+  background: var(--color-bg-hover);
+}
